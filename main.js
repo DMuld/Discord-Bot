@@ -46,7 +46,7 @@ client.on('message', message =>
     }
     else
     {
-        message.channel.send('Not a command dumbass!');
+        message.channel.send('Not a command!');
     }
 });
 
@@ -58,4 +58,4 @@ client.on('message', message =>
 
 
 //This uses the token. Makes sure that it is at the very end of the file.
-client.login('OTI5MTU4MzU5MDE2NDE1MjMy.YdjQJw.3_dAxxppdvnlqQbPpAaUBOSn0l4');
+client.login('*Enter Client Token*');
