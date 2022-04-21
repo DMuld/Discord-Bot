@@ -4,19 +4,19 @@ module.exports =
     description: "This is a ping command!",
     execute(message, args)
     {
-        if (message.author.id === "212083748466851841")
+        if (message.author.id === "*Enter user ID*") //This will allow you to have commands only for you The beginning to privilidge escalation.
         {
             message.channel.send('pong');
         }
         /*
-        if (message.member.roles.cache.has('784837880941641750'))
+        if (message.member.roles.cache.has('*Enter the role that which you want, can be seen on server.*'))
         {
             message.channel.send('pong!');
         }
         else
         {
-            message.channel.send('Get better permissions you beta back bitch.');
-            message.channel.send('Come back when you grow some.');
+            message.channel.send('Get better permissions.');
+            message.channel.send('Come back when you are better.');
         }
         */
     }
